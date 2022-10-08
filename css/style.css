@@ -236,7 +236,7 @@ body{
 .buttom:hover{
     background-color: black;
     position: relative;
-    top: -5px;
+    top: -3px;
     border: 2px solid gray;
     
 }
@@ -818,5 +818,106 @@ body{
 .style__design img{
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+.contact-us{
+    background-color: #ffffff;
+    padding-top: 108px;
+    padding-bottom: 30px;
+    height: 500px;
+    
+}
+.contact-us h2{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+.contact-us p{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin-bottom: 80px;
+}
+
+.form{
+    display: flex;
+}
+.inputs input{
+    display: block;
+    margin-left: 115px;
+    width: 527px;
+    height: 31px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+    
+
+}
+.inputs input:focus{
+    outline: none;
+}
+.area input{
+    margin-left: 60px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 527px;
+    height: 31px;
+    padding-top: 130px;
+    
+}
+.area input:focus{
+    outline: none;
+}
+.send__massege {
+    position: relative;
+    display: block;
+    width: 144px;
+    height: 42px;
+    top: 43px;
+    left: 626px;
+    background-color: #ff9b51;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    
+}
+.send__massege:hover{
+    background-color: orangered;
+    position: relative;
+    top: 39px;
+} 
+.footer{
+    background-color: #000000;
+    height: 80px;
+    text-align: center;
+    
+}
+.footer img{
+    margin-top: 20px;
+}
+.footer p{
+    opacity: 0.5;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
 }
